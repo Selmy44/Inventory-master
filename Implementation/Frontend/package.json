@@ -1,0 +1,66 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@cyntler/react-doc-viewer": "^1.16.6",
+        "@react-pdf/renderer": "^3.4.4",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.6.8",
+        "datatables.net-dt": "^2.1.8",
+        "date-holidays": "^3.23.12",
+        "dotenv": "^16.4.5",
+        "firebase": "^10.9.0",
+        "firebase-tools": "^13.23.0",
+        "holidayapi": "^6.0.1",
+        "html2pdf.js": "^0.10.2",
+        "multiselect-react-dropdown": "^2.0.25",
+        "path-to-regexp": "^6.2.1",
+        "pdfmake": "^0.2.10",
+        "postcss": "^8.4.47",
+        "react": "^18.3.1",
+        "react-csv": "^2.2.2",
+        "react-data-table-component": "^7.6.2",
+        "react-date-range": "^2.0.0-alpha.4",
+        "react-dom": "^18.3.1",
+        "react-modal": "^3.16.1",
+        "react-pdf": "^9.1.1",
+        "react-router-dom": "^6.21.1",
+        "react-scripts": "^5.0.1",
+        "react-select": "^5.8.0",
+        "react-spinners": "^0.13.8",
+        "react-switch": "^7.0.0",
+        "resolve-url-loader": "^5.0.0",
+        "router": "^2.0.0",
+        "socket.io-client": "^4.7.4",
+        "superstatic": "^9.0.3",
+        "web-vitals": "^2.1.4",
+        "yarn": "^1.22.22"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
